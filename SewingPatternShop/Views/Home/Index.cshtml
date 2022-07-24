@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+<h1>Welcome to the Sewing Patterns Shop!</h1>
+
+<p>Discover the new sewing patterns added to our Summer Event!<br>
+
+Shop Our Spring & Summer Event products for your next sewing or quilting project.</p>
+
+
+<div class="row">
+    <div class="col-sm-4">
+        <div class="list-group">
+            <a asp-controller="Product" asp-action="List"
+               class="list-group-item">View our products</a>
+            <a asp-controller="Home" asp-action="About"
+               class="list-group-item">Learn more about us</a>
+        </div>
+    </div>
+</div>
